@@ -27,13 +27,13 @@ class TodayAlert extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8.w),
                   child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.orange.withValues(alpha: 0.6),
+                    Icons.sports_gymnastics,
+                    color: Colors.white,
                     size: 20.w,
                   ),
                 ),
@@ -45,6 +45,7 @@ class TodayAlert extends StatelessWidget {
                     '10 members expired today - kaleb, Eyuel, kira',
                   ),
                 ),
+                SizedBox(width: 10.w),
                 TextButton(
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -55,9 +56,19 @@ class TodayAlert extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('View '),
+                      Text(
+                        'View ',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                        ),
+                      ),
                       SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 13,
+                        color: Colors.orange,
+                      ),
                     ],
                   ),
                 ),
@@ -78,13 +89,13 @@ class TodayAlert extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8.w),
                   child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.orange.withValues(alpha: 0.6),
+                    Icons.sports_gymnastics,
+                    color: Colors.white,
                     size: 20.w,
                   ),
                 ),
@@ -96,6 +107,7 @@ class TodayAlert extends StatelessWidget {
                     '10 members expired today - kaleb, Eyuel, kira',
                   ),
                 ),
+                SizedBox(width: 10.w),
                 TextButton(
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -106,9 +118,19 @@ class TodayAlert extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('View '),
+                      Text(
+                        'View ',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                        ),
+                      ),
                       SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 13,
+                        color: Colors.orange,
+                      ),
                     ],
                   ),
                 ),
@@ -116,7 +138,6 @@ class TodayAlert extends StatelessWidget {
             ),
           ),
         ),
-
         SizedBox(height: 2.h),
         Card(
           child: Container(
@@ -130,13 +151,13 @@ class TodayAlert extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8.w),
                   child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.orange.withValues(alpha: 0.6),
+                    Icons.sports_gymnastics,
+                    color: Colors.white,
                     size: 20.w,
                   ),
                 ),
@@ -148,58 +169,7 @@ class TodayAlert extends StatelessWidget {
                     '10 members expired today - kaleb, Eyuel, kira',
                   ),
                 ),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                    minimumSize: Size.zero,
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('View '),
-                      SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-
-        SizedBox(height: 2.h),
-        Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.orange.shade100,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
-                    shape: BoxShape.circle,
-                  ),
-                  padding: EdgeInsets.all(8.w),
-                  child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.orange.withValues(alpha: 0.6),
-                    size: 20.w,
-                  ),
-                ),
                 SizedBox(width: 10.w),
-                Expanded(
-                  child: Text(
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    '10 members expired today - kaleb, Eyuel, kira',
-                  ),
-                ),
                 TextButton(
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -210,9 +180,19 @@ class TodayAlert extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('View '),
+                      Text(
+                        'View ',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                        ),
+                      ),
                       SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 13,
+                        color: Colors.orange,
+                      ),
                     ],
                   ),
                 ),
@@ -234,13 +214,13 @@ class TodayAlert extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8.w),
                   child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.orange.withValues(alpha: 0.6),
+                    Icons.sports_gymnastics,
+                    color: Colors.white,
                     size: 20.w,
                   ),
                 ),
@@ -252,6 +232,7 @@ class TodayAlert extends StatelessWidget {
                     '10 members expired today - kaleb, Eyuel, kira',
                   ),
                 ),
+                SizedBox(width: 10.w),
                 TextButton(
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -262,9 +243,19 @@ class TodayAlert extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('View '),
+                      Text(
+                        'View ',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                        ),
+                      ),
                       SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 13,
+                        color: Colors.orange,
+                      ),
                     ],
                   ),
                 ),
@@ -277,7 +268,7 @@ class TodayAlert extends StatelessWidget {
         Card(
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.green.shade100,
+              color: Colors.orange.shade100,
               borderRadius: BorderRadius.circular(12),
             ),
             padding: const EdgeInsets.all(8.0),
@@ -286,12 +277,12 @@ class TodayAlert extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.green,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                   padding: EdgeInsets.all(8.w),
                   child: Icon(
-                    Icons.warning_amber,
+                    Icons.sports_gymnastics,
                     color: Colors.white,
                     size: 20.w,
                   ),
@@ -304,7 +295,7 @@ class TodayAlert extends StatelessWidget {
                     '10 members expired today - kaleb, Eyuel, kira',
                   ),
                 ),
-                SizedBox(width: 8.w),
+                SizedBox(width: 10.w),
                 TextButton(
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.zero,
@@ -315,9 +306,19 @@ class TodayAlert extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('View '),
+                      Text(
+                        'View ',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.orange,
+                        ),
+                      ),
                       SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        size: 13,
+                        color: Colors.orange,
+                      ),
                     ],
                   ),
                 ),
@@ -326,216 +327,6 @@ class TodayAlert extends StatelessWidget {
           ),
         ),
         SizedBox(height: 2.h),
-        Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.green.shade100,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  padding: EdgeInsets.all(8.w),
-                  child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.white,
-                    size: 20.w,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                Expanded(
-                  child: Text(
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    '10 members expired today - kaleb, Eyuel, kira',
-                  ),
-                ),
-                SizedBox(width: 8.w),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                    minimumSize: Size.zero,
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('View '),
-                      SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-
-        SizedBox(height: 2.h),
-        Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.green.shade100,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  padding: EdgeInsets.all(8.w),
-                  child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.white,
-                    size: 20.w,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                Expanded(
-                  child: Text(
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    '10 members expired today - kaleb, Eyuel, kira',
-                  ),
-                ),
-                SizedBox(width: 8.w),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                    minimumSize: Size.zero,
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('View '),
-                      SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-
-        SizedBox(height: 2.h),
-        Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.green.shade100,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  padding: EdgeInsets.all(8.w),
-                  child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.white,
-                    size: 20.w,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                Expanded(
-                  child: Text(
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    '10 members expired today - kaleb, Eyuel, kira',
-                  ),
-                ),
-                SizedBox(width: 8.w),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                    minimumSize: Size.zero,
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('View '),
-                      SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-
-        SizedBox(height: 2.h),
-        Card(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.green.shade100,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  padding: EdgeInsets.all(8.w),
-                  child: Icon(
-                    Icons.warning_amber,
-                    color: Colors.white,
-                    size: 20.w,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                Expanded(
-                  child: Text(
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    '10 members expired today - kaleb, Eyuel, kira',
-                  ),
-                ),
-                SizedBox(width: 8.w),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                    minimumSize: Size.zero,
-                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                  ),
-                  onPressed: () {},
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('View '),
-                      SizedBox(width: 4.w),
-                      Icon(Icons.arrow_forward_ios, size: 13),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
       ],
     );
   }
