@@ -2,6 +2,7 @@ import 'package:app/feature/auth%20copy%202/pages/kaleb.dart';
 import 'package:app/feature/bottom%20nav%20bar/controllers/bottomNavbar_controller.dart';
 import 'package:app/feature/home/pages/home_page.dart';
 import 'package:app/feature/profile/pages/profile_page.dart';
+import 'package:app/feature/revenue/pages/revenue.dart';
 import 'package:app/utils/constant/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,7 +12,12 @@ class BottomNavbarPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> pages = [const HomePage(), const Members(), Kaleb()];
+    List<Widget> pages = [
+      const HomePage(),
+      const Members(),
+      Revenue(),
+      Kaleb(),
+    ];
     final controller = Get.put(BottomNavbarController());
     return Scaffold(
       body: Obx(
@@ -33,6 +39,10 @@ class BottomNavbarPage extends StatelessWidget {
             BottomNavigationBarItem(
               icon: Icon(Icons.group_work),
               label: 'Members',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.attach_money),
+              label: 'Revenue',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings),
