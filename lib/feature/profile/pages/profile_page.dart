@@ -46,7 +46,6 @@ class _MembersState extends State<Members> {
 
                 // --- MODERN SEARCH BAR ---
                 TextField(
-                  
                   decoration: InputDecoration(
                     prefixIcon: Icon(
                       Icons.search,
@@ -193,20 +192,24 @@ class _MembersState extends State<Members> {
                     shrinkWrap: true,
                     itemCount: 20,
                     itemBuilder: (context, index) => Card(
-                      child: Padding(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.orange.shade100,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.green.shade100,
+                                color: Colors.orange,
                                 shape: BoxShape.circle,
                               ),
                               padding: EdgeInsets.all(8.w),
                               child: Icon(
-                                Icons.warning_amber,
-                                color: Colors.green.withValues(alpha: 0.6),
+                                Icons.access_alarm,
+                                color: Colors.white,
                                 size: 20.w,
                               ),
                             ),
@@ -215,10 +218,10 @@ class _MembersState extends State<Members> {
                               child: Text(
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
-                                'dave  ,Bogale ,jo',
+                                '10 members expired today - kaleb, Eyuel, kira',
                               ),
                             ),
-                            SizedBox(width: 8.w),
+                            SizedBox(width: 10.w),
                             TextButton(
                               style: TextButton.styleFrom(
                                 padding: EdgeInsets.zero,
@@ -229,7 +232,10 @@ class _MembersState extends State<Members> {
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
-                                  Text('View '),
+                                  Text(
+                                    'View ',
+                                    style: TextStyle(color: Colors.orange),
+                                  ),
                                   SizedBox(width: 4.w),
                                   Icon(Icons.arrow_forward_ios, size: 13),
                                 ],

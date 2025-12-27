@@ -47,7 +47,11 @@ class GridviewPage extends StatelessWidget {
             12,
           ), // Increased padding for breathing room
           decoration: BoxDecoration(
-            color: Colors.white,
+            gradient: LinearGradient(
+              colors: [Colors.red, Colors.orange],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(
@@ -68,13 +72,13 @@ class GridviewPage extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: TColors.warning.withValues(alpha: 0.1),
+                      color: TColors.white.withValues(alpha: 0.1),
                       shape: BoxShape.circle, // Made it a perfect circle
                     ),
                     child: Icon(
                       data['icon'], // Using dynamic icon
                       size: 28,
-                      color: TColors.warning,
+                      color: TColors.white,
                     ),
                   ),
 
@@ -84,14 +88,14 @@ class GridviewPage extends StatelessWidget {
                       Icon(
                         Icons.arrow_upward,
                         size: 16, // Smaller, subtle arrow
-                        color: Colors.green,
+                        color: Colors.white,
                       ),
                       const SizedBox(width: 4),
                       Text(
                         data['trend'] ?? '+10',
                         style: Theme.of(context).textTheme.labelMedium
                             ?.copyWith(
-                              color: Colors.green,
+                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
                       ),
@@ -113,9 +117,11 @@ class GridviewPage extends StatelessWidget {
               // Label Text
               Text(
                 data['title'] ?? '',
-                style: Theme.of(
-                  context,
-                ).textTheme.labelMedium?.copyWith(letterSpacing: 0.5),
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  letterSpacing: 0.5,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
