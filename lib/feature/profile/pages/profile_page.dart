@@ -147,13 +147,13 @@ class _MembersState extends State<Members> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.green.shade100,
+                                color: Colors.orange,
                                 shape: BoxShape.circle,
                               ),
                               padding: EdgeInsets.all(8.w),
                               child: Icon(
-                                Icons.warning_amber,
-                                color: Colors.green.withValues(alpha: 0.6),
+                                Icons.sports_gymnastics,
+                                color: Colors.white,
                                 size: 20.w,
                               ),
                             ),
@@ -194,7 +194,6 @@ class _MembersState extends State<Members> {
                     itemBuilder: (context, index) => Card(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.orange.shade100,
                           borderRadius: BorderRadius.circular(12),
                         ),
                         padding: const EdgeInsets.all(8.0),
@@ -203,7 +202,7 @@ class _MembersState extends State<Members> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.orange,
+                                color: const Color.fromRGBO(255, 152, 0, 1),
                                 shape: BoxShape.circle,
                               ),
                               padding: EdgeInsets.all(8.w),
@@ -258,13 +257,13 @@ class _MembersState extends State<Members> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.green.shade100,
+                                color: Colors.orange,
                                 shape: BoxShape.circle,
                               ),
                               padding: EdgeInsets.all(8.w),
                               child: Icon(
                                 Icons.warning_amber,
-                                color: Colors.green.withValues(alpha: 0.6),
+                                color: Colors.white,
                                 size: 20.w,
                               ),
                             ),

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class TColors {
   // ---------------- PRIMARY BRAND COLORS ----------------
-  static const Color primary = Color(0xFF10B981);
-  static const Color secondary = Color(0xFF3B82F6);
-  static const Color accent = Color(0xFFFBBF24);
+  static const Color primary = Color(0xFFF57C00);
+  static const Color secondary = Color(0xFFBF360C);
+  static const Color accent = Color(0xFFFF6D00);
 
   // ---------------- FUNCTIONAL / SEMANTIC COLORS ----------------
   static const Color success = Color(0xFF388E3C);
