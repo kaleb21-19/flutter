@@ -31,18 +31,19 @@ class MyApp extends StatelessWidget {
           theme: ThemeApp.lightTheme,
           darkTheme: ThemeApp.darkTheme,
           themeMode: ThemeMode.system,
-          home: MyUpgradeAlert(
-            showIgnore: false,
-            showLater: false,
-            barrierDismissible: true,
-            showReleaseNotes: true,
-            upgrader: Upgrader(
-              minAppVersion: '1.2.1',
-              debugDisplayAlways: true,
-              debugLogging: true,
-            ),
-            child: SplashScreen(),
-          ),
+          home:
+              //MyUpgradeAlert(
+              //   showIgnore: false,
+              //   showLater: false,
+              //   barrierDismissible: true,
+              //   showReleaseNotes: true,
+              //   upgrader: Upgrader(
+              //     minAppVersion: '1.2.1',
+              //     debugDisplayAlways: true,
+              //     debugLogging: true,
+              //   ),
+              //   child:
+              SplashScreen(),
         );
       },
     );

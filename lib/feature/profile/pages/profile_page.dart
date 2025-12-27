@@ -308,14 +308,11 @@ class _MembersState extends State<Members> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
-                              decoration: BoxDecoration(
-                                color: Colors.green.shade100,
-                                shape: BoxShape.circle,
-                              ),
+                              decoration: BoxDecoration(shape: BoxShape.circle),
                               padding: EdgeInsets.all(8.w),
                               child: Icon(
                                 Icons.warning_amber,
-                                color: Colors.green.withValues(alpha: 0.6),
+                                color: Colors.white,
                                 size: 20.w,
                               ),
                             ),

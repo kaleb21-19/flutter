@@ -12,12 +12,7 @@ class BottomNavbarPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> pages = [
-      const HomePage(),
-      const Members(),
-      Revenue(),
-      Kaleb(),
-    ];
+    List<Widget> pages = [const HomePage(), const Members(), Revenue()];
     final controller = Get.put(BottomNavbarController());
     return Scaffold(
       body: Obx(
@@ -43,10 +38,6 @@ class BottomNavbarPage extends StatelessWidget {
             BottomNavigationBarItem(
               icon: Icon(Icons.attach_money),
               label: 'Revenue',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              label: 'Settings',
             ),
           ],
           currentIndex: controller.currentIndex.value,
