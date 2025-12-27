@@ -56,11 +56,8 @@ class TButtonTheme {
       foregroundColor: TColors.primary,
       backgroundColor: Colors.transparent,
       splashFactory: InkRipple.splashFactory,
-      padding: EdgeInsets.symmetric(
-        vertical: TSizes.buttonHeight,
-        horizontal: TSizes.md,
-      ),
-      minimumSize: Size(88, TSizes.buttonHeight),
+      padding: EdgeInsets.symmetric(vertical: TSizes.md, horizontal: TSizes.md),
+      minimumSize: Size(88, TSizes.md),
     ),
   );
 

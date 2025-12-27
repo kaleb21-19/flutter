@@ -79,5 +79,6 @@ class ThemeApp {
     dialogTheme: TDialogTheme.darkDialogTheme,
     bottomNavigationBarTheme:
         TBottomNavigationBarTheme.darkBottomNavigationBarTheme,
+        
   );
 }

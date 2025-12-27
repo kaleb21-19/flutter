@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class TColors {
   // ---------------- PRIMARY BRAND COLORS ----------------
-  static const Color primary = Color(0xFFD32F2F);
-  static const Color secondary = Color(0xFFFFA726);
-  static const Color accent = Color(0xFF6C757D);
+  static const Color primary = Color(0xFF10B981);
+  static const Color secondary = Color(0xFF3B82F6);
+  static const Color accent = Color(0xFFFBBF24);
 
   // ---------------- FUNCTIONAL / SEMANTIC COLORS ----------------
   static const Color success = Color(0xFF388E3C);
@@ -65,17 +65,20 @@ class TColors {
 
   // ---------------- GRADIENTS ----------------
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFFE53935), Color(0xFFD32F2F)],
+    colors: [primary, secondary],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
-
+  static const LinearGradient accentGradient = LinearGradient(
+    colors: [secondary, accent],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
   static const LinearGradient successGradient = LinearGradient(
-    colors: [Color(0xFF43A047), Color(0xFF66BB6A)],
+    colors: [success, success],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
-
   // ---------------- SHADOWS ----------------
   static List<BoxShadow> lightShadow = [
     BoxShadow(
