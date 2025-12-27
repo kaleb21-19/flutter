@@ -18,6 +18,7 @@ class AuthController extends GetxController {
   final AuthServices authServices = AuthServices();
 
   Future<void> register() async {
+    Get.to(() => const BottomNavbarPage());
     final response = await authServices.register(
       name: nameController.text,
       email: emailController.text,
@@ -42,6 +43,7 @@ class AuthController extends GetxController {
   }
 
   Future<void> login() async {
+    Get.to(() => const BottomNavbarPage());
     final response = await authServices.login(
       email: emailController.text,
       password: passwordController.text,
